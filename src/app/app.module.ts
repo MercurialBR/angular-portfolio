@@ -7,6 +7,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { ImageComponent } from './components/sobre/image-profile/image.component';
+import { ContatosComponent } from './components/contatos/contatos.component';
+import { ContatosIconsComponent } from './components/contatos/contatos-icons/contatos-icons.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +17,9 @@ import { ImageComponent } from './components/sobre/image-profile/image.component
     HomeComponent,
     MenuBarComponent,
     SobreComponent,
-    ImageComponent
+    ImageComponent,
+    ContatosComponent,
+    ContatosIconsComponent,
   ],
   imports: [
     BrowserModule,

@@ -15,7 +15,7 @@
 }
 
 .contain {
-  width: 84%;
+  width: 22rem;
   height: auto;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .contain p {
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 450;
   text-align: justify;
 }

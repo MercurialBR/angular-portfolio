@@ -21,4 +21,6 @@ export class TecnologiasIconsComponent {
   icon6:string = ""
   @Input()
   icon7:string = ""
+  @Input()
+  icon8:string = ""
 }

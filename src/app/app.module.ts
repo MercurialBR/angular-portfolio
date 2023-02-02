@@ -11,6 +11,7 @@ import { ContatosComponent } from './components/contatos/contatos.component';
 import { ContatosIconsComponent } from './components/contatos/contatos-icons/contatos-icons.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { TecnologiasIconsComponent } from './components/tecnologias/tecnologias-icons/tecnologias-icons.component';
+import { ProjetosComponent } from './components/projetos/projetos.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { TecnologiasIconsComponent } from './components/tecnologias/tecnologias-
     ContatosIconsComponent,
     TecnologiasComponent,
     TecnologiasIconsComponent,
+    ProjetosComponent,
   ],
   imports: [
     BrowserModule,

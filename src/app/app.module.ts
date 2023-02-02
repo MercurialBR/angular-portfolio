@@ -9,6 +9,8 @@ import { SobreComponent } from './components/sobre/sobre.component';
 import { ImageComponent } from './components/sobre/image-profile/image.component';
 import { ContatosComponent } from './components/contatos/contatos.component';
 import { ContatosIconsComponent } from './components/contatos/contatos-icons/contatos-icons.component';
+import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
+import { TecnologiasIconsComponent } from './components/tecnologias/tecnologias-icons/tecnologias-icons.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { ContatosIconsComponent } from './components/contatos/contatos-icons/con
     ImageComponent,
     ContatosComponent,
     ContatosIconsComponent,
+    TecnologiasComponent,
+    TecnologiasIconsComponent,
   ],
   imports: [
     BrowserModule,

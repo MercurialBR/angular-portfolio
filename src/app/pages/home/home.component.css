@@ -1,0 +1,15 @@
+.home__container{
+  display: flex;
+  justify-content: space-around;
+}
+.home__container_left {
+  display: flex;
+  justify-content: right;
+  border: 2px solid red;
+  width: 30%;
+}
+
+.home__container_right {
+  border: 2px solid red;
+  width: 70%;
+}

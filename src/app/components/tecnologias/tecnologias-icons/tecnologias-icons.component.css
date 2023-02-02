@@ -1,0 +1,14 @@
+.tecnologias-icons__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.tecnologias-icons__container i {
+  margin: 0 0.5rem;
+}
+
+.tecnologias-icons__container a img {
+  margin: 0 0.5rem;
+  width: 2.6rem;
+}

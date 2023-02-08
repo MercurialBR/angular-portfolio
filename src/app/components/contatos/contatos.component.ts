@@ -7,12 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class ContatosComponent {
 
-  @Input()
-  icon1:string = " "
-  @Input()
-  icon2:string = " "
-  @Input()
-  icon3:string = " "
-  @Input()
-  icon4:string = " "
+
 }

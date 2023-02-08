@@ -15,4 +15,6 @@ export class ContatosIconsComponent {
   icon3:string = ""
   @Input()
   icon4:string = ""
+  @Input()
+  icon5:string = ""
 }

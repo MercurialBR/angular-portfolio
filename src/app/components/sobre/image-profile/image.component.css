@@ -1,8 +1,8 @@
 .image-profile__container img{
-  width: 18rem;
-  height: 18rem;
+  width: 17rem;
+  height: 17rem;
   object-fit: cover;
   object-position: top;
   border-radius: 10rem;
-  border: 0.3rem solid #afafaf;
+  border: 0.3rem solid #fbff00;
 }

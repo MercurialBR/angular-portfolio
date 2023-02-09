@@ -1,3 +1,24 @@
+
 .contatos-icons__container i {
   margin: 0 0.5rem;
+}
+
+.fa-linkedin {
+  color: #025989;
+}
+
+.fa-square-github {
+  color: #171A1F;
+}
+
+.fa-square-facebook {
+  color: #1773EA;
+}
+
+.fa-square-instagram {
+  color: #9f61cf;
+}
+
+.fa-square-envelope {
+  color: #F54446;
 }

@@ -1,5 +1,5 @@
 .projetos__container {
-  width: 50rem;
+  width: 96%;
   height: auto;
   padding: 1rem;
   margin: 1rem;
@@ -21,4 +21,10 @@
   font-weight: 550;
   margin-bottom: 1rem;
   cursor: default;
+}
+
+@media screen and (max-width: 600px) {
+  .projetos__container h1 {
+    font-size: 1.1rem;
+  }
 }

@@ -2,8 +2,44 @@
   display: flex;
   justify-content: center;
 }
+
 .home__container_left {
+  width: 27%;
   display: flex;
-  justify-content: right;
+  justify-items: end;
 }
 
+.home__container_right {
+  width: 45%;
+}
+
+@media screen and (max-width: 1280px) {
+  .home__container_left {
+    width: 100%;
+  }
+  .home__container_right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .home__container {
+    display: grid;
+  }
+  .home__container_left {
+    width: 100%;
+  }
+  .home__container_right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

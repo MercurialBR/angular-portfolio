@@ -41,3 +41,12 @@
 .fa-bootstrap {
   color: #7111F0;
 }
+
+@media screen and (max-width: 600px) {
+  .tecnologias-icons__container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .tecnologias-icons__container i {
+  }
+}

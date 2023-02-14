@@ -4,5 +4,12 @@
   object-fit: cover;
   object-position: top;
   border-radius: 10rem;
-  border: 0.3rem solid #fbff00;
+  border: 0.3rem solid #EACA43;
+}
+@media screen and (max-width: 600px) {
+  .image-profile__container img {
+    width: 150px;
+    height: 150px;
+    border: 0.15rem solid #EACA43;
+  }
 }

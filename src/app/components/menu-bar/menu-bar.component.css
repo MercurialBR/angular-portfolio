@@ -7,8 +7,22 @@
 }
 
 .menu-bar__container h3 {
-  font-size: 2rem;
-  color: #FFFFFF;
-  font-weight: 800;
+  font-size: 2.2rem;
+  color: #EACA43;
+  letter-spacing: -.5px;
+
+  font-family: Gobold;
   cursor: default;
+
+}
+
+@media screen and (max-width: 600px) {
+  .menu-bar__container h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@font-face {
+  font-family: Gobold;
+  src:  url(../../../assets/font/GoboldBlockyRegular.otf);
 }

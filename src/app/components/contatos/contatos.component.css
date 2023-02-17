@@ -24,6 +24,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .contatos__container {
+    width: 93%;
+  }
   .contatos__container h1 {
     font-size: 1.1rem;
   }

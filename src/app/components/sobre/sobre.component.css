@@ -2,7 +2,6 @@
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: end;
 }
 
 .sobre_cotainer_itens {
@@ -51,6 +50,9 @@
 @media screen and (max-width: 600px) {
   .sobre__container {
     width: 100%;
+  }
+  .sobre_cotainer_itens {
+    margin-bottom: 0;
   }
   .content h2 {
     font-size: 0.9rem;

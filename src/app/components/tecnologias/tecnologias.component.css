@@ -24,6 +24,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .tecnologias__container {
+    width: 93%;
+  }
   .tecnologias__container h1 {
     font-size: 1.1rem;
   }

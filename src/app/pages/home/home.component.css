@@ -4,6 +4,7 @@
 }
 
 .home__container_left {
+  border: 1px solid red;
   width: 27%;
   display: flex;
   justify-content: center;

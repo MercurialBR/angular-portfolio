@@ -47,6 +47,12 @@
   cursor: default;
 }
 
+@media screen and (max-width: 1980px) {
+  .sobre__container {
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .sobre__container {
     width: 100%;
